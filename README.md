@@ -1,4 +1,4 @@
-# spring-rest-calculator
+# rest-calculator
 A simple calculator written with Spring Web 4fun.
 
 ## Requirement
