@@ -42,4 +42,12 @@ class RestCalculatorApplicationTests {
 		assertEquals(5, operator.result(10, 2));
 	}
 
+	@Test
+	void testReset() {
+		final OperatorType addOperator = OperatorType.MULTIPLY;
+		final Operator operator = addOperator.getOperator();
+
+		assertEquals(0, operator.result(-999999, 0));
+	}
+
 }

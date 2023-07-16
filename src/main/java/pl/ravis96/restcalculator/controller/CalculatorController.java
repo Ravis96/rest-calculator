@@ -32,4 +32,9 @@ public class CalculatorController {
     public CalculateRespond divide(@PathVariable int input) {
         return this.calculatorService.calculate(OperatorType.DIVIDE, input);
     }
+
+    @GetMapping("/reset")
+    public CalculateRespond reset() {
+        return this.calculatorService.calculate(OperatorType.MULTIPLY, 0);
+    }
 }
