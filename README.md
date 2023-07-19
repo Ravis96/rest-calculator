@@ -11,4 +11,4 @@ Java 17+.
 *http://localhost:8080/divide/{number}* - Dividing result by value. <br>
 *http://localhost:8080/reset* - Setting result to 0. <br>
 
-Every request return JSON with result and mathematical operation.
+Every request return JSON with result.
